@@ -1,0 +1,47 @@
+/*Justerar så att knapparna är i rätt förhållande till varandra.*/
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    display: inline-block;
+    padding: 40px;
+}
+
+/* Skapar utseendet av knapparna samt hur de skall förhålla sid till div de är i.*/
+.button {
+    display: flex;
+    width: 60px;
+    height: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: cadetblue;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.button-row {
+    display: flex;
+}
+
+/*Centrerar knapparna i mitten av skärmen.*/
+.button-pad{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+/*Gör bild responsiv.*/
+.picture1{
+    width: 10%;
+}
+
+.GoodVibesText{
+    font-size: 3vw;
+}
